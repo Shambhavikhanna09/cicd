@@ -29,6 +29,6 @@ jobs:
         with:
           context: .
           push: true
-          file: D:\Semester 5\SUBJECTS\CONTAINER ORCHESTRATION\LAB\cicdlab
+          file: ./Dockerfile
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
